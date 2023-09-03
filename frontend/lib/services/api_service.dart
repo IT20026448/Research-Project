@@ -4,8 +4,8 @@ import 'package:http/http.dart' as http;
 import 'package:http_parser/http_parser.dart'; // Import the http_parser package
 
 class ApiService {
-  static const baseUrl = "http://192.168.8.102:8083";
-  //static const baseUrl = 'https://skin-disease-app4-xqfdgy7peq-el.a.run.app';
+  //static const baseUrl = "http://192.168.8.102:8083";
+  static const baseUrl = 'https://skin-disease-app4-xqfdgy7peq-el.a.run.app';
 
   Future<String?> diagnoseSkinDisease(File imageFile) async {
     try {
